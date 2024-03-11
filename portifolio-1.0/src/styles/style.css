@@ -1,0 +1,104 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --color1: #fff;
+    --color2: #242424;
+}
+
+body {
+    background-color: var(--color2);
+    color: var(--color1);
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: var(--color2);
+}
+
+.logo {
+    margin-right: 50px;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+#toggler,
+.nabar label {
+    display: none;
+}
+
+.about img {
+    height: 200px;
+    width: 100px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.projects {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    /* Define no máximo 3 colunas */
+    gap: 20px;
+    /* Espaçamento entre os artigos */
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.project-content {
+    display: flex;
+}
+
+.project-image img {
+    height: 250px;
+}
+
+.project-text {
+    margin: auto;
+}
+
+.project-image,
+.project-text {
+    flex: 1;
+    padding: 5px;
+    /* Adicione um espaçamento interno */
+}
+
+
+.contact ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    list-style-type: none;
+}
+
+.contact img {
+    height: 50px;
+}
