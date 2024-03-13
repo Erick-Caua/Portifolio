@@ -59,7 +59,7 @@ body {
 }
 .about-p{
     max-width: 400px;
-    border: 1px solid yellow;
+    
 
 }
 .container {
@@ -110,12 +110,11 @@ body {
     background-color: var(--color1);
 }
 .contact ul {
-    display: flex;
-    flex-wrap: wrap;
     gap: 6px;
     list-style-type: none;
 }
 
 .contact img {
     height: 50px;
+    overflow: cover;
 }
