@@ -43,10 +43,10 @@ body {
 
 .about-article{
     overflow: hidden;
-    border: 1px solid var(--color1);
-    padding: auto;
-    margin: 5rem;
-    align-items: center;
+    margin: 3rem;
+    display: flex; /* Adiciona display flex */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
 }
 .about img {
     border-top-left-radius: 4rem;
@@ -54,11 +54,12 @@ body {
     height: 20rem;
     width: 15rem;
     float: left;
-    
+    margin-right: 2rem;
+   
 }
 .about-p{
     max-width: 400px;
-    border: 1px solid var(--color1);
+    border: 1px solid yellow;
 
 }
 .container {
