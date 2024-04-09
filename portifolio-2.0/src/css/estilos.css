@@ -56,8 +56,18 @@ body {
     color: #fff;
     border-radius: 50px;
 }
-
+#particles-js {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 800px;
+    
+}
 .home {
+    position: absolute;
     display: flex;
     min-height: calc(100vh - 125px);
     align-items: center;
